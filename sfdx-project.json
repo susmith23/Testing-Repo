@@ -5,7 +5,11 @@
       "default": true
     }
   ],
+
+  "name": "NewDevOrg",
+
   "name": "NewOrg",
+
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "52.0"
