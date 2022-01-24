@@ -1,8 +1,8 @@
 public  class LeadProcessor implements Database.Batchable <SObject> {
 //START METHOD
     public  Database.QueryLocator start(Database.BatchableContext bc){
-        String Query='Select id,LeadSource from Lead';
-        return Database.getQueryLocator(Query);
+        String query='Select id,LeadSource from Lead';
+        return Database.getQueryLocator(query);
             }
 //EXECUTE METHOD
     public  void execute(Database.BatchableContext bc, List<Lead> scope){
